@@ -2,4 +2,7 @@ repository - github에 있는 원격저장소 로컬 저장소와 연동되고 �
 로컬 저장소 - 내 컴퓨터에 있는 저장소 repository에 등록하여 연동시켜 사용한다.
 git add 명령어를 사용해 로컬 저장소에 있는 정보를 가상공간에 저장하고 git commit 명령어로 repository에 등록하면 commit이 된다.
 git add- 정보를 가상공간에 저장한다.
-git commit-  
+git commit- 명령어로 쓰이는 commit은 메세지의 의미를 갖고있다.   
+git push -u 링크- repository에 코드를 등록할 때 쓰는 명령어이다.  
+git pull- 같이 협업하는 사람이 올린 파일을 가져올 때 쓰는 명령어이다.
+다른 사람과 협업을 할 때 상대방이 내 repository에 파일을 올려놨다면 내 로컬 저장소와 reposirory의 파일 개수와 내용이 일치해야 다시 내가 push할 수 있다.
