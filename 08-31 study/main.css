@@ -1,0 +1,80 @@
+.profile {
+width: 100px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+/* class selector */
+.files {
+    text-align: center; 
+    font-size: 16px; 
+    font: 굴림;
+}
+
+.box{
+    width: 50px;
+    background: aqua;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 40px;
+    border: 4px solid black;
+    border-radius: 5px;
+    font-size: 10px;
+    box-shadow: 3px 3px grey;
+
+}
+
+.container{
+    width: 500px;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background: aqua;
+
+}
+
+.left-menu{
+    width: 70%;
+    height: 200px;
+    background: white;
+    display: inline-block;
+    vertical-align: top;
+    /* float: left; */
+    
+}
+
+.right-menu{
+    width: 30%;
+    height:200px;
+    background: grey;
+    display: inline-block;
+    /* float: left; */
+}
+
+.bottom-menu{
+    width: 100%;
+    height: 100px;
+    background: grey;
+    /* clear: both; */
+}
+
+.name{
+    float: left;
+}
+
+.profiles{
+    width:50px;
+    display: block;
+    float: left;
+}
+
+/* p{
+tag selector
+}
+
+#special{
+id selector
+} */
