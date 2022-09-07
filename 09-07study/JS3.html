@@ -71,7 +71,13 @@
               <h4>로그인하세요</h4>
               <button class="btn-danger" id="close">닫기</button>
             </div>
-          </div>
+        </div>
+
+        <script>
+            document.getElementById('close').addEventListener('click', function(){
+                document.getElementsByClassName('black-bg')[0].classList.add('close-modal')
+            })
+        </script>
 
         
 
