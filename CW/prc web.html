@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url(sub.css);
+    </style>
+</head>
+<body>
+    <div class="main-background">
+        <img src = "shoes.jpg">
+        <button class="btn" id="btn-a">
+            버튼
+        </button>
+    </div>
+
+    <div class="container" id="container-a">
+        <nav>
+            <div class="sub">
+                <input type="text">
+                <br>
+                <input type="password">
+                <button>login</button>
+            </div>
+        </nav>
+        
+        
+        <br>
+        <ul class="list">
+            <li><a href="" class="link">Clothes</a></li>
+            <br>
+            <br>
+            <br>
+            <li><a href="" class="link">Pants</a></li>
+            <br>
+            <br>
+            <br>
+            <li><a href="" class="link">Accessary</a></li>
+        </ul>
+    </div>  
+    <script>
+        document.getElementsByClassName('btn')[0].addEventListener('click', function(){
+            document.getElementsByClassName('container')[0].classList.toggle('show');
+        });
+    </script>
+    <br>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+</html>

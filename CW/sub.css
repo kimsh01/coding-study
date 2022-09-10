@@ -1,0 +1,32 @@
+.main-background{
+    
+}
+
+.btn{
+    width: 45px;
+    height: 30px;
+}
+
+.container{
+    width: 350px;
+    height: 600px;
+    background-color: lightgrey;    
+    display: none;
+}
+.show{
+    display: block;
+}
+
+.sub{
+    margin-left: 20px;
+}
+
+img{
+    width : 1500px;
+    height: 650px;
+    
+}
+
+.list{
+
+}
