@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url(main-h.css);
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <span class="navbar-brand">JSShop</span>
+            <button class="bla navbar-toggler">
+                <span class="badge">Dark ↺</span>
+            </button>
+          </div> 
+    </nav>
+
+    <script>
+    var 나이 = 20;
+    var 이름 = 'kim';
+    
+    var count = 0;
+
+
+    $('.badge').on('click', function(){
+  count += 1;
+  if (count % 2 == 1) {
+    $('.badge').html('Light');
+  } else {
+    $('.badge').html('Dark')
+  }
+});
+
+
+
+        //var 변수이름 = 변수 넣을 값  var --> 잠깐 변수를 저장하는 역할(변수문법)
+        // badge 클릭횟수가 홀수면 내부 글자를 light로 변경
+        //badge 클릭횟수가 짝수면 내부 글자를 dark로 변경
+
+
+
+        //var --> Function-scoped  :  재선언 o  :  재할당 o
+        //let --> {Block-scoped}  :  재선언 x  :  재할당 o
+        //const --> {Block-scoped}  :  재선언 x  :  재할당 x
+    </script>
+    
+</body>
+</html>
