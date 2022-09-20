@@ -1,0 +1,61 @@
+.flex-container{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    padding: 5px;
+    
+}
+
+
+
+.flex-item{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    margin: 5px;
+}
+
+.test{
+    width: 100px;
+    height: 100px;
+    background: grey;
+}
+
+.container{
+    display: flex;
+    height: 50px;
+    padding: 5px;
+    align-items: center;
+
+}
+
+.item{
+    width: 25%;
+    height: 50px;
+    background-color: lightgrey;
+
+}
+
+
+
+@media screen and (max-width: 1200px){
+    .main-title {
+        font-size: 30px;
+    }
+    .item{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .main-title {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .main-title {
+        font-size: 30px;
+    }
+}
+/*  -> media query 문법 */
