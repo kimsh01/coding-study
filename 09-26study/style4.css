@@ -1,0 +1,58 @@
+body{
+  margin: 0;
+}
+div{
+  box-sizing: border-box;
+}
+h1{
+  font-size: 30px;
+}
+h4{
+  font-size: 22px;
+}
+
+.main-background{
+  background-image: linear-gradient(to bottom, #499add, #4e61c0);
+  color: white;
+  height: 550px;
+  padding: 20px;
+}
+
+.main-container{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.main-text{
+  float: left;
+  margin-top: 50px;
+}
+
+.main-iphone{
+  width: 400px;
+  float: right;
+  margin-top: 95px;
+}
+
+.btn{
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 600px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.btn-black{
+  color: white;
+  background: #444;
+
+}
+
+.btn-black:hover{
+
+}
+.btn-black:active{
+  
+}
